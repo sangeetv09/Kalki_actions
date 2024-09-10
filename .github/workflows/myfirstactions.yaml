@@ -1,4 +1,4 @@
-name: My first actions
+name: My first actions1
 on:
   workflow_dispatch:
   push:
@@ -16,6 +16,9 @@ jobs:
          echo
          echo "2. Is java installed?"
          java --version
+         echo
+         echo "3. What is the disk space?"
+         df -h
          echo
 
 #   deploy:
