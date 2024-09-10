@@ -18,7 +18,7 @@ jobs:
          java --version
          echo
          echo "3. What is the disk space?"
-         df -h
+         df -hT
          echo
 
 #   deploy:
